@@ -26,7 +26,6 @@
     "placeholders": { "count": { "type": "int" } }
   },
   "payerLabel": "Paid by",
-  "payerRequired": "Choose who paid",
   "payerTitle": "Who paid?",
   "splitTitle": "Split among",
   "doneAction": "Done",
@@ -61,10 +60,12 @@
   "shareTotal": "Total",
   "sharePerPerson": "Per Person",
   "copied": "Copied",
-  "infoTitle": "INFORMATION",
+  "menuTitle": "MENU",
   "aboutItem": "About",
   "privacyItem": "Privacy Policy",
   "termsItem": "Terms of Use",
+  "languageItem": "Language",
+  "languageSystem": "System default",
   "versionLabel": "Version {version}",
   "@versionLabel": {
     "placeholders": { "version": { "type": "String" } }

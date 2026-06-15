@@ -200,12 +200,6 @@ abstract class AppLocalizations {
   /// **'Paid by'**
   String get payerLabel;
 
-  /// No description provided for @payerRequired.
-  ///
-  /// In en, this message translates to:
-  /// **'Choose who paid'**
-  String get payerRequired;
-
   /// No description provided for @payerTitle.
   ///
   /// In en, this message translates to:
@@ -410,11 +404,11 @@ abstract class AppLocalizations {
   /// **'Copied'**
   String get copied;
 
-  /// No description provided for @infoTitle.
+  /// No description provided for @menuTitle.
   ///
   /// In en, this message translates to:
-  /// **'INFORMATION'**
-  String get infoTitle;
+  /// **'MENU'**
+  String get menuTitle;
 
   /// No description provided for @aboutItem.
   ///
@@ -433,6 +427,18 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Terms of Use'**
   String get termsItem;
+
+  /// No description provided for @languageItem.
+  ///
+  /// In en, this message translates to:
+  /// **'Language'**
+  String get languageItem;
+
+  /// No description provided for @languageSystem.
+  ///
+  /// In en, this message translates to:
+  /// **'System default'**
+  String get languageSystem;
 
   /// No description provided for @versionLabel.
   ///

@@ -83,9 +83,6 @@ class AppLocalizationsUk extends AppLocalizations {
   String get payerLabel => 'Платник';
 
   @override
-  String get payerRequired => 'Оберіть платника';
-
-  @override
   String get payerTitle => 'Хто платив?';
 
   @override
@@ -188,7 +185,7 @@ class AppLocalizationsUk extends AppLocalizations {
   String get copied => 'Скопійовано';
 
   @override
-  String get infoTitle => 'ІНФОРМАЦІЯ';
+  String get menuTitle => 'МЕНЮ';
 
   @override
   String get aboutItem => 'Про застосунок';
@@ -198,6 +195,12 @@ class AppLocalizationsUk extends AppLocalizations {
 
   @override
   String get termsItem => 'Умови використання';
+
+  @override
+  String get languageItem => 'Мова';
+
+  @override
+  String get languageSystem => 'Системна';
 
   @override
   String versionLabel(String version) {

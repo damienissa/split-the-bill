@@ -79,9 +79,6 @@ class AppLocalizationsEn extends AppLocalizations {
   String get payerLabel => 'Paid by';
 
   @override
-  String get payerRequired => 'Choose who paid';
-
-  @override
   String get payerTitle => 'Who paid?';
 
   @override
@@ -184,7 +181,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get copied => 'Copied';
 
   @override
-  String get infoTitle => 'INFORMATION';
+  String get menuTitle => 'MENU';
 
   @override
   String get aboutItem => 'About';
@@ -194,6 +191,12 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get termsItem => 'Terms of Use';
+
+  @override
+  String get languageItem => 'Language';
+
+  @override
+  String get languageSystem => 'System default';
 
   @override
   String versionLabel(String version) {
